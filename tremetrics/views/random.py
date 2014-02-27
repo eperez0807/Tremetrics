@@ -6,7 +6,7 @@ from sqlalchemy.exc import DBAPIError
 from cornice import Service
 from cornice.resource import resource, view
 
-from .models import (
+from tremetrics.models import (
   DBSession,
   MyModel,
   )
